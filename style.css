@@ -1,0 +1,211 @@
+*{
+  font-size: 1.05em;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-size: 16px;
+}
+
+body
+{
+  height: 230vh;
+  background: linear-gradient(to bottom, #00cc00 44%, #ff6600 94%);
+  
+  background-repeat: no-repeat;
+}
+
+#logo
+{
+  width: 20%;
+  margin-top: 0.5em
+}
+
+
+nav ul
+{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 1.5em;
+    text-decoration: none;
+    margin-top: -2.2em;
+}
+
+nav ul li
+{
+    list-style: none;
+    margin-left: 1.2em;
+    text-decoration: nome;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    padding: 0.4em 0.5em ;
+    color: white;
+    border-radius: 20em;
+}
+
+nav ul li a:hover,
+nav ul li a.active
+{
+    background: white;
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.main {
+  margin-top: 2rem;
+  height: 100%;
+}
+
+ ::-webkit-scrollbar
+{
+    width: 0;
+}
+
+#scrolbar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 100%;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgb(23, 248, 15), rgb(248, 226, 24), rgb(255, 166, 0));
+    z-index: 10000;
+}
+
+h1
+{
+  color: white;
+  text-align: center;
+  margin-top: 3em;
+  font-size: 1.7em;
+}
+
+p
+{
+    color: white;
+   text-align: center;
+   margin-top: 38em;
+   font-size: 1.2em;
+   padding: 1em;
+   margin-right: 20%;
+   margin-left: 20%;
+}
+
+.principal
+{
+  width: 80%;
+  height: 110%;
+  margin-left: 10%;
+  border: 0.2em solid white;
+  border-radius: 100%;
+  position: absolute;
+}
+
+#espaco
+{
+   color: white;
+    background-color: #fff45e;
+    width: 900px;
+    height: 900px;
+    margin-left: 200px;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+    margin-top: 70px;
+    border-radius: 20%;
+}
+
+ol
+{
+  color: black;
+  margin-top: 4em;
+}
+
+ol li
+{
+  
+  margin-left: 100px;
+}
+
+label
+{
+  color: black;
+}
+
+hr
+{
+  width: 400px;
+  margin-left: 35%;
+  color: black;
+}
+
+#quant
+{
+  margin-left: 90px;
+}
+
+#pro
+{
+  margin-left: 80px;
+}
+
+#linha
+{
+   width: 600px;
+   margin-left: 25%;
+   color: black;
+}
+
+.button_compra {
+  display: flex;
+  align-content: center;
+  background-color: black;
+  margin: 0;
+  border-radius: 50px;
+  width: 300px;
+}
+
+#btn
+{
+   margin-bottom: -20em;
+   border-radius: 20px;
+   padding: 10px;
+   cursor: pointer;
+   background: linear-gradient(to right, #13fc13 30%, #fca606 70%); 
+   text-decoration: none;
+}
+
+#btn2
+{
+   margin-bottom: -20em;
+   border-radius: 20px;
+   padding: 10px;
+   cursor: pointer;
+   background: linear-gradient(to left, #13fd13 30%, #fca606 70%);
+   text-decoration: none;
+}
+
+.principe
+{
+  width: 20%;
+  margin-left: 40%;
+}
+
+.moeda
+{
+   color: white;
+   text-align: center;
+   margin-top: 5em;
+   font-size: 1.2em;
+   padding: 1em;
+   margin-right: 20%;
+   margin-left: 20%;
+}
