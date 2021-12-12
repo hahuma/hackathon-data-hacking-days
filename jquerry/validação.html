@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jquery-3.6.0.min.js"></script>
+    <title>funcionando</title>
+
+
+    <script type="text/javascript">
+//se o campo nao for preenchido ele fica vermelho
+
+
+    $(document).ready(function(){
+
+        $("input").blur(function(){
+
+            if($(this).val() == ""){
+
+                $(this).css({ "border-color" : "#f00", "padding"  : "2px"  })
+            }
+        })
+    
+});
+    
+
+
+
+
+
+    </script>
+
+
+
+
+</head>
+<body>
+
+    <form id="form" name="form" method="post">
+        <span style="display: inline-table; width: 70px;">NOME:</span>
+        <Input type="text" id="nome" value="" /></Input>
+        <br /><br />
+
+       
+            <span style="display: inline-table; width: 70px;">E-MAIL:</span>
+            <Input type="text" id="email" value="" /></Input>
+            <br /><br />
+
+            
+                <span style="display: inline-table; width: 70px;">telefone:</span>
+                <Input type="text" id="telefone" value="" /></Input>
+                <br /><br />
+
+                <input type="button" id="notao" value="enviar" />
+            
+    </form>
+
+
+
+
+    
+</body>
+</html>
